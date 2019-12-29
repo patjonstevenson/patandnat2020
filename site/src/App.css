@@ -1,3 +1,41 @@
 .App {
   text-align: center;
 }
+/* ------ 
+   HEADER
+   ------ 
+*/
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  width: 15%;
+
+  padding: 15px;
+  text-decoration: none;
+  color: navy;
+}
+.navbar a:hover {
+  border: 1px solid navy;
+  border-radius: 0px;
+  background: navy;
+  color: white;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    width: 100%;
+  }
+}
