@@ -29,6 +29,13 @@
   color: white;
 }
 
+.cover-photo {
+  width: 100%;
+}
+.cover-photo img {
+  width: 100%;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 450px) {
