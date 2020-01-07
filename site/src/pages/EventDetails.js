@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "../components/NewMap";
 
 const EventDetails = () => {
   return (
@@ -17,6 +18,8 @@ const EventDetails = () => {
         3186 Reservoir Drive <br />
         Simi Valley, California{" "}
       </p>
+
+      {/* <Map /> */}
     </div>
   );
 };
