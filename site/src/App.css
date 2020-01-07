@@ -4,8 +4,7 @@
 
 @font-face {
   font-family: "Flemish Script";
-  src: local("OPTIFlemish-Script"),
-    url(./fonts/OPTIFlemish-Script.otf) format("otf");
+  src: local("OPTIFlemish-Script"), url(./fonts/OPTIFlemish-Script.otf);
 }
 
 h1,
