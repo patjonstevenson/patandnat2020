@@ -14,7 +14,7 @@ const Ceremony = () => {
         participation from the congregation. At the Mass, we will have booklets
         that will aid you in following the ceremony, since most of it will be in
         Latin. The vows, readings, and homily will be in English, so if you
-        would prefer you may simply sit and observe. Information Non Catholics
+        would prefer you may simply sit and observe.
       </p>
       <p>
         <a className="ceremony-link" href="https://catholic-link.org/10-things-a-non-catholic-should-know-before-attending-a-catholic-mass/">
