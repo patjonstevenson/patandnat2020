@@ -17,12 +17,12 @@ const Ceremony = () => {
         would prefer you may simply sit and observe. Information Non Catholics
       </p>
       <p>
-        <a href="https://catholic-link.org/10-things-a-non-catholic-should-know-before-attending-a-catholic-mass/">
+        <a className="ceremony-link" href="https://catholic-link.org/10-things-a-non-catholic-should-know-before-attending-a-catholic-mass/">
           Mass information for non-Catholics
         </a>
       </p>
-      <p>
-        <a href="https://www.learnreligions.com/what-to-know-about-traditional-latin-mass-4068352">
+      <p >
+        <a className="ceremony-link" href="https://www.learnreligions.com/what-to-know-about-traditional-latin-mass-4068352">
           Traditional Latin Mass information for Catholics
         </a>
       </p>

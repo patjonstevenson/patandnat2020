@@ -6,7 +6,9 @@ const Subpage = props => {
   return (
     <>
       <Header />
-      <props.Page />
+      <div className="subpage">
+        <props.Page />
+      </div>
     </>
   );
 };
