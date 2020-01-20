@@ -3,7 +3,7 @@ a {
   color: navy;
 }
 
-p, span {
+p, span, h3 {
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -17,8 +17,8 @@ p, span {
 }
 
 h1,
-h2,
-h3 {
+h2
+ {
   font-family: "Flemish Script";
   font-weight: lighter;
 }
