@@ -4,7 +4,8 @@ import "./App.css";
 
 // Components
 import Subpage from "./components/Subpage";
-import Header from "./components/Header";
+
+// Pages
 import EventDetails from "./pages/EventDetails";
 import Home from "./pages/Home";
 import Ceremony from "./pages/Ceremony";
