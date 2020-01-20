@@ -1,7 +1,7 @@
 import fs from "fs";
 
-import bigImages from "./";
-import thumbs from "thumbnails/"
+// import bigImages from "./";
+// import thumbs from "./thumbnails";
 
 const imageSrc = [
     "../images/gallery/DSC05255.jpeg",
