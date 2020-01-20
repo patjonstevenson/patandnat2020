@@ -9,7 +9,6 @@ const Gallery = () => {
     console.log("Images:\n", images);
     return (
         <div className="gallery">
-            <img src= />
             <ReactGallery images={images} />
         </div>
     );
