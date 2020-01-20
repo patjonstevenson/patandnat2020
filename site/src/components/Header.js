@@ -14,12 +14,16 @@ const Header = () => {
       </div>
       <nav className="navbar">
         <Link to="/eventdetails">Event Details</Link>
-        <Link to="/ceremony">The Ceremony</Link>
-        <Link to="/weddingparty">The Wedding Party</Link>
+        <Link to="/ceremony">Ceremony</Link>
+        <Link to="/weddingparty">Wedding Party</Link>
         <Link to="/photos">Photos</Link>
         <Link to="/ourstory">Our Story</Link>
         <Link to="/registry">Registry</Link>
       </nav>
+      <hr style={{
+        width: "85%",
+        "margin-top": "2%"
+      }} />
     </div>
   );
 };
