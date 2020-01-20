@@ -1,5 +1,3 @@
-import fs from "fs";
-
 // Big Images
 import image1 from "./big/DSC05306.jpeg";
 import image2 from "./big/DSC05308.jpeg";
@@ -52,68 +50,176 @@ import thumb_image22 from "./thumbnails/thumb_DSC05476.jpeg";
 import thumb_image23 from "./thumbnails/thumb_DSC05483.jpeg";
 import thumb_image24 from "./thumbnails/thumb_DSC05485.jpeg";
 
-const bigImages = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
-    image8,
-    image9,
-    image10,
-    image11,
-    image12,
-    image13,
-    image14,
-    image15,
-    image16,
-    image17,
-    image18,
-    image19,
-    image20,
-    image21,
-    image22,
-    image23,
-    image24,
-];
 
-
-const thumbnails = [
-    thumb_image1,
-    thumb_image2,
-    thumb_image3,
-    thumb_image4,
-    thumb_image5,
-    thumb_image6,
-    thumb_image7,
-    thumb_image8,
-    thumb_image9,
-    thumb_image10,
-    thumb_image11,
-    thumb_image12,
-    thumb_image13,
-    thumb_image14,
-    thumb_image15,
-    thumb_image16,
-    thumb_image17,
-    thumb_image18,
-    thumb_image19,
-    thumb_image20,
-    thumb_image21,
-    thumb_image22,
-    thumb_image23,
-    thumb_image24,
-];
-
-const images = bigImages.map((src, index) => (
+const images = [
     {
-        src,
-        thumbnail: thumbnails[index],
-        thumbnailWidth: 500,
-        thumbnailHeight: 500,
+        src: image1,
+        thumbnail: thumb_image1,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image2,
+        thumbnail: thumb_image2,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image3,
+        thumbnail: thumb_image3,
+        thumbnailWidth: 600,
+        thumbnailHeight: 900,
+
+    },
+    {
+        src: image4,
+        thumbnail: thumb_image4,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image5,
+        thumbnail: thumb_image5,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image6,
+        thumbnail: thumb_image6,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image7,
+        thumbnail: thumb_image7,
+        thumbnailWidth: 600,
+        thumbnailHeight: 900,
+
+    },
+    {
+        src: image8,
+        thumbnail: thumb_image8,
+        thumbnailWidth: 600,
+        thumbnailHeight: 900,
+
+    },
+    {
+        src: image9,
+        thumbnail: thumb_image9,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image10,
+        thumbnail: thumb_image10,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image11,
+        thumbnail: thumb_image11,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image12,
+        thumbnail: thumb_image12,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image13,
+        thumbnail: thumb_image13,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image14,
+        thumbnail: thumb_image14,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image15,
+        thumbnail: thumb_image15,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image16,
+        thumbnail: thumb_image16,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image17,
+        thumbnail: thumb_image17,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image18,
+        thumbnail: thumb_image18,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image19,
+        thumbnail: thumb_image19,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image20,
+        thumbnail: thumb_image20,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image21,
+        thumbnail: thumb_image21,
+        thumbnailWidth: 600,
+        thumbnailHeight: 900,
+
+    },
+    {
+        src: image22,
+        thumbnail: thumb_image22,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image23,
+        thumbnail: thumb_image23,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
+    },
+    {
+        src: image24,
+        thumbnail: thumb_image24,
+        thumbnailWidth: 600,
+        thumbnailHeight: 400,
+
     }
-))
+];
 
 export default images;
