@@ -13,11 +13,13 @@ import WeddingParty from "./pages/WeddingParty";
 import Photos from "./pages/Photos";
 import OurStory from "./pages/OurStory";
 import Registry from "./pages/Registry";
+import COVID from "./pages/COVID";
 
 function App() {
   return (
     <div className="App">
-      <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={Home} /> */}
+      <Route exact path="/" render={() => <Subpage Page={COVID} />} />
       <Route
         path="/eventdetails"
         render={() => <Subpage Page={EventDetails} />}
