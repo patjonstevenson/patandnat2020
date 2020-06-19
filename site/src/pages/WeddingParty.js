@@ -17,13 +17,13 @@ const WeddingParty = () => {
         </div>
 
         <div className="wedding-party-group">
-          <h3>Groomsmen</h3>
+          {/* <h3>Groomsmen</h3>
           <ul>
-            <li>Julia Gomez</li>
-            <li>Isabella Carreon</li>
-            <li>Anabel Gomez</li>
-            <li>Felicity Egan</li>
-          </ul>
+            <li>Nick Schmidt</li>
+            <li>Jordon Dimock</li>
+            <li>Dane Boudreau</li>
+            <li>Andrew Imthurn</li>
+          </ul> */}
         </div>
       </div>
 

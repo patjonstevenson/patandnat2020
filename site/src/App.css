@@ -160,6 +160,23 @@ hr {
   /* html {
     width: 100%;
   } */
+  .covid h1 {
+    font-family: "Cormorant Garamond";
+    padding-bottom: 5%;
+  }
+  .names h1 a {
+    font-size: 3rem; /* Went lower than ->   I really like 4rem so far. 5rem is also nice. */
+  }
+
+  .names {
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 2.5%;
+  }
+
+  .date {
+    display: none;
+  }
+
   .navbar {
     flex-direction: column;
     width: 100%;
@@ -209,5 +226,21 @@ hr {
   .ceremony-link {
     /* font-size: 1.5rem; */
     padding-top: 5%;
+  }
+
+  .wedding-party-groups {
+    flex-direction: column;
+  }
+
+  ul {
+    width: 100%;
+    padding: 0;
+    
+  }
+
+  li {
+    width: 100%;
+    padding: 2.5% 0;
+
   }
 }
