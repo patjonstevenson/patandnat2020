@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [navVisibility, setNavVisibility] = useState(false);
+
+  const reverseNavVisibility = () => {
+    console.log("navVisibility before click: ", navVisibility);
+    setNavVisibility(!navVisibility);
+    console.log("navVisibility after click: ", navVisibility);
+  };
+
   return (
     <div className="header">
       <div className="names">
@@ -12,7 +20,11 @@ const Header = () => {
       <div className="date">
         <h2>October 3, 2020</h2>
       </div>
-      <nav className="navbar">
+      <button class="hamburger-icon" onClick={() => { reverseNavVisibility(); }}>
+        <i class="fa fa-bars"></i>
+      </button>
+      <hr className={`${navVisibility ? 'visibile' : 'invisible'}`} />
+      <nav className={`navbar ${navVisibility ? 'visibile' : 'invisible'}`}>
         <Link to="/eventdetails">Event Details</Link>
         <Link to="/ceremony">Ceremony</Link>
         <Link to="/weddingparty">Wedding Party</Link>
@@ -20,11 +32,8 @@ const Header = () => {
         <Link to="/ourstory">Our Story</Link>
         <Link to="/registry">Registry</Link>
       </nav>
-      <hr style={{
-        width: "85%",
-        "margin-top": "2%"
-      }} />
-    </div>
+      <hr className={`${navVisibility ? 'visibile' : 'invisible'}`} />
+    </div >
   );
 };
 

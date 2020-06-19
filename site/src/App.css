@@ -66,6 +66,14 @@ h1 {
   font-size: 2.4rem;
 }
 
+li {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
 .navbar a {
   width: 15%;
   font-family: 'Cormorant Garamond', serif;
@@ -75,7 +83,6 @@ h1 {
   color: navy;
 }
 .navbar a:hover {
-  border: 1px solid navy;
   border-radius: 0px;
   background: navy;
   color: white;
@@ -117,13 +124,123 @@ p {
   display: block;
 }
 
+hr {
+  width: 85%;
+  margin-top: 2%;
+}
+
+.wedding-party {
+  display: flex;
+  flex-direction: column;
+}
+
+.wedding-party-groups {
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wedding-party-group {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: left; */
+}
+
+.wedding-party-group ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 450px) {
+  /* html {
+    width: 100%;
+  } */
+  .covid h1 {
+    font-family: "Cormorant Garamond";
+    padding-bottom: 5%;
+  }
+  .names h1 a {
+    font-size: 3rem; /* Went lower than ->   I really like 4rem so far. 5rem is also nice. */
+  }
+
+  .names {
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 2.5%;
+  }
+
+  .date {
+    display: none;
+  }
+
   .navbar {
     flex-direction: column;
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+  .hamburger-icon {
+    /* width: 30px; */
+    /* height: 30px; */
+    width: 50px;
+    height: 50px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    background: white;
+    color: navy;
+  }
+  button {
+    text-shadow: none;
+  }
+  .hamburger-icon i {
+    /* width: 100%; */
+    margin: 2.5%;
+    font-size: 1.3rem;
   }
   .navbar a {
     width: 100%;
+    padding: 15px 0;
+  }
+  .subpage {
+    width: 100%; 
+  }
+  .visible {
+    display: block;
+  }
+  .invisible {
+    display: none;
+  }
+  p {
+    margin: 0 5%;
+    line-height: 3rem;
+  }
+  .ceremony-link {
+    /* font-size: 1.5rem; */
+    padding-top: 5%;
+  }
+
+  .wedding-party-groups {
+    flex-direction: column;
+  }
+
+  ul {
+    width: 100%;
+    padding: 0;
+    
+  }
+
+  li {
+    width: 100%;
+    padding: 2.5% 0;
+
   }
 }
