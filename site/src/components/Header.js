@@ -23,6 +23,7 @@ const Header = () => {
       <button class="hamburger-icon" onClick={() => { reverseNavVisibility(); }}>
         <i class="fa fa-bars"></i>
       </button>
+      <hr className={`${navVisibility ? 'visibile' : 'invisible'}`} />
       <nav className={`navbar ${navVisibility ? 'visibile' : 'invisible'}`}>
         <Link to="/eventdetails">Event Details</Link>
         <Link to="/ceremony">Ceremony</Link>
@@ -31,10 +32,7 @@ const Header = () => {
         <Link to="/ourstory">Our Story</Link>
         <Link to="/registry">Registry</Link>
       </nav>
-      <hr className={`${navVisibility ? 'visibile' : 'invisible'}`} style={{
-        width: "85%",
-        "margin-top": "2%"
-      }} />
+      <hr className={`${navVisibility ? 'visibile' : 'invisible'}`} />
     </div >
   );
 };
