@@ -1,5 +1,4 @@
 import React from "react";
-import Map from "../components/NewMap";
 
 const EventDetails = () => {
   return (
