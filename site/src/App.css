@@ -75,7 +75,6 @@ h1 {
   color: navy;
 }
 .navbar a:hover {
-  border: 1px solid navy;
   border-radius: 0px;
   background: navy;
   color: white;
@@ -120,10 +119,29 @@ p {
 /* RESPONSIVE */
 
 @media screen and (max-width: 450px) {
+  /* html {
+    width: 100%;
+  } */
   .navbar {
     flex-direction: column;
+    width: 100%;
+  }
+  .header {
+    width: 100%;
   }
   .navbar a {
     width: 100%;
+    padding: 15px 0;
+  }
+  .subpage {
+    width: 100%; 
+  }
+  .ceremony p {
+    margin: 0 5%;
+    line-height: 3rem;
+  }
+  .ceremony-link {
+    /* font-size: 1.5rem; */
+    padding-top: 5%;
   }
 }
