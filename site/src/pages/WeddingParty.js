@@ -11,8 +11,8 @@ const WeddingParty = () => {
           <ul>
             <li>Julia Gomez</li>
             <li>Isabella Carreon</li>
-            <li>Anabel Gomez</li>
             <li>Felicity Egan</li>
+            <li>Anabel Gomez</li>
           </ul>
         </div>
 

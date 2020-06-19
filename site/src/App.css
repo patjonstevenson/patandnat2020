@@ -56,6 +56,10 @@ h1 {
   margin-bottom: 0;
 }
 
+.covid h1 {
+  font-family: "Cormorant Garamond";
+}
+
 .names h1 a {
   font-size: 5.5rem;
 }
@@ -161,7 +165,6 @@ hr {
     width: 100%;
   } */
   .covid h1 {
-    font-family: "Cormorant Garamond";
     padding-bottom: 5%;
   }
   .names h1 a {
