@@ -7,7 +7,7 @@ import Subpage from "./components/Subpage";
 
 // Pages
 import EventDetails from "./pages/EventDetails";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import Ceremony from "./pages/Ceremony";
 import WeddingParty from "./pages/WeddingParty";
 import Photos from "./pages/Photos";
